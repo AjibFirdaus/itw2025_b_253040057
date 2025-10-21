@@ -18,6 +18,10 @@ h1 {
     color: red
 }
 
+#facebook {
+    text-decoration: none;
+}
+
 #facebook:hover {
     color:white;
     background-color: darkblue;
