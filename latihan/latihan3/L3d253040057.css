@@ -1,0 +1,37 @@
+body {
+    background-image: url("./assets//images/background.png");
+    background-repeat: repeat-x;
+    font-family: Georgia;
+}
+
+h1 {
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 60px;
+    color: darkblue;
+}
+
+#sosmed {
+    color: red;
+}
+
+#atas {
+    color: orange;
+}
+
+#facebook {
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-style: italic
+}
+
+p {
+    text-align: center;
+}
