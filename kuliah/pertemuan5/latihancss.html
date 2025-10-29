@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        h1,
+        h3 {
+            color: lightblue;
+            font-size: 50px;
+            font-family: "Bitcount Grid Single", system-ui;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-variation-settings:
+                "slnt" 0,
+                "CRSV" 0.5,
+                "ELSH" 0,
+                "ELXP" 0;
+            text-align: center;
+        }
+
+        p {
+            color: green;
+        }
+
+        div p {
+            font-family: Arial;
+            font-size: 30px;
+        }
+
+        div>p {}
+
+        h3+p {
+            text-align: center;
+        }
+
+        div+p {
+            font-family: Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <font color="lightblue" face="arial", size="+4", alignt="center">
+        <h1>Hello World</h1>
+    </font> -->
+
+    <h1>Hello World</h1>
+    <h3>ITW UNPAS</h3>
+
+    <p>Paragraf 1</p>
+    <div>
+        <p>Paragraf 2</p>
+        <span>
+            <p>Paragraf 2</p>
+        </span>
+        <p>Paragraf 2</p>
+    </div>
+    <p>Paragraf 3</p>
+
+
+</body>
+
+</html>
